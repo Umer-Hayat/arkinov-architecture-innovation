@@ -1,0 +1,74 @@
+body{
+color: #AFAFAF;
+background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 45px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #AAAAAA;
+}
+ul li a:hover{
+  color: white;
+}
+.class-slash a{
+text-decoration: none;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.container-fluid .row .col .CUMAU{
+  margin-top: 40px;
+}
+.container-fluid .row .col .AN{
+  margin-top: 15px;
+}
+.row .col-md-12 .CONT .para{
+  color: #AFAFAF;
+}
+.row .col-md-12 .CONT{
+  border: 1px solid #AFAFAF;
+  border-bottom: none;
+  color: #AFAFAF;
+  height: 32px;
+}
+ .row .col-md-12 .CONT .bottom-bor{
+  border: 1px solid #AFAFAF;
+  width:250px;
+  margin-left: 0; 
+  margin-top: -20px;
+
+ }
+ .row .col-md-12 .LA{
+  text-align: center;
+  color: #AFAFAF;
+  margin-bottom: 0;
+ }
+ span{
+  font-size: 25px;padding: 10px;
+ }
+@media only screen and (max-width: 600px) {
+  .class-slash{
+    display: none;
+  }
+ .padding-0{
+    padding-right:70px;
+    padding-left:70px;
+}
+  }

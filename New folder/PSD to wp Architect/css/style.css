@@ -1,0 +1,66 @@
+
+.bg{
+  background-color: black;
+	/*background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;*/
+
+
+}
+.row .col-md-12{
+  color: #AFAFAF;margin-top: 8%;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+color: #AFAFAF;
+}
+.navbar-line{
+	border: 1px solid red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 45px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #AAAAAA;
+}
+ul li a:hover{
+  color: white;
+}
+
+.row .house-img {
+	margin-top: 60px;
+}
+.class-slash a{
+text-decoration: none;
+}
+.img-fluid{
+  width: 100%;
+  height: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .class-slash{
+    display: none;
+  }
+.navbar-toggler{
+	background-color:#AAAAAA;
+}
+.row .house-img {
+	margin-top: 0;
+}
+
+}

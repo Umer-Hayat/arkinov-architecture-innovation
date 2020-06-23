@@ -1,0 +1,102 @@
+body{
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 45px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #AAAAAA;
+}
+ul li a:hover{
+  color: white;
+}
+.class-slash a{
+text-decoration: none;
+}
+small{
+  margin-top: -20px;margin-left: 15px;
+}
+.main-sec{
+  color: white;margin: 45px;
+}
+
+/*.row .col .row .CIUDAD{
+  font-size: 15px;color: #AFAFAF;
+}*/
+.row .col .row .test{
+  color: #AFAFAF;
+  font-size: 10px; 
+  margin-left: 8%;
+}
+.row .col .price{
+  color: #AFAFAF;
+  font-size: 12px;
+  margin-top: 5%;
+}
+.plan-img{
+  padding: 25px;
+}
+.row .col-md-12 .CONT .para{
+  color: #AFAFAF;
+}
+.row .col-md-12 .CONT{
+  border: 1px solid #AFAFAF;
+  border-bottom: none;
+  color: #AFAFAF;
+  height: 22px;
+}
+ .row .col-md-12 .CONT .bottom-bor{
+  border: 1px solid #AFAFAF;
+  width:200px;
+  margin-left: 0; 
+  margin-top: -20px;
+
+ }
+ .row .col-md-12 .LA{
+  text-align: center;
+  color: #AFAFAF;
+  margin-bottom: 0;
+ }
+.sub-data{
+  font-size: 8px;
+  color: #AFAFAF;
+  margin-bottom: 5%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .class-slash{
+    display: none;
+  }
+  .row .col .row{
+    text-align: center;
+    margin-left: 20px;
+  }
+  .main-sec{
+    margin: 0;
+  }
+  .plan-img{
+  padding: 0;
+}
+small{
+   margin-top: -20px;margin-left:-10px;
+}
+.second-img{
+  margin-left: 25% !important;
+  }}
